@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+    <h1>WEATHER REPORT</h1>
+    
+    <!-- <form action="/" method="POST" id="search-form">
+        <label for="city" >Enter the city name: </label>
+        <input type="text" name="cityName" required id="search-input">
+        <button type="submit" id="search-button">Show</button>
+    </form> -->
+    <div class="main-content">
+            <article class="widget">
+                <form class="weatherLocation"action="/" method="POST">
+                    <label for="city" >Enter the city name: </label>
+                    <input placeholder="location..." type = "text"name="cityName" required/>
+                    <button type="submit">Search</button>
+                </form>
+                <div class="weatherIcon">
+                    <i class="wi wi-day-cloudy"></i>
+                </div>
+                <div class="weatherInfo">
+                    <div class="temperature"><span></span>
+                    
+                    </div>
+                    <div class="description">   
+
+                        <div class="weatherCondition">
+
+                        </div>   
+
+                        <div class="place">
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="date">
+
+                </div>
+            </article>
+        </div>
+</body>
+</html>
